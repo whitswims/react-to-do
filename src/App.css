@@ -17,11 +17,20 @@
 .App-title {
   font-size: 1.5em;
 }
-
+button {
+  align-content: right;
+}
 .App-intro {
   font-size: large;
 }
+li {
+  list-style-type: none;
+}
 
+table {
+  display:flex;
+  align-self: auto;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
