@@ -48,7 +48,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <ul classname={App.list}>
+      <ul className={App.list}>
         { this.state.todos.map( (todo, index) =>
           <ToDo key={ index}  description={ todo.description } isCompleted={ todo.isCompleted} 
           toggleComplete={ () => this.toggleComplete(index) } deleteTodo={ () => this.deleteTodo(index)}/>
